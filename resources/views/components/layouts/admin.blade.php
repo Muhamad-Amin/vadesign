@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ $title ?? 'Dashboard' }} — VA Design</title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/icon.ico') }}">
     <x-partials.admin.css></x-partials.admin.css>
 </head>
 
